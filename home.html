@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
- 
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Simple Calculator using HTML, CSS and JavaScript</title>
-  <link rel="stylesheet" href="styles.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Portfolio Ayush Ranjan</title>
+
 </head>
- 
+<body>  
+    <video id="bgVideo" autoplay loop muted  >
+        <source src="video.mp4" type="video/mp4">
+      </video> 
+    <header>  
+      <div class="container">  
+        
+        <nav class="flex items-centre justify-between">  
+            <div class="left flex justfiy-right">  
+               <div>
+                
+            </div>   
+            <div>  
+              <a href="#">Home</a>  
+              <a href="#">About</a>  
+              <a href="#">Services</a>  
+              <a href="#">Blog</a></li>  
+              <a href="#">More</a>  
+            </div>  
+          </div>  
+          <div class="right">  
+            <button class="btn btn-primary">Contact</button>  
+          </div>  
+        </nav>
+      </div>  
+    </header>
+    <div class="hero flex items-centre justify-between">
+    <div class="left flex-1 justify-center">
+      
+       </div>
+        <div class="right flex-1">
+        <h6>Ayush Ranjan</h6>
+        <h1> Web <span>Developer</span></h1>
+        <p>I am your ready to go a Front - End Developer with strong command in HTML,CSS3 and JavaScript libraries and Frameworks like React.js</p>
+        <div>
+            <button class="btn btn-secondary"> 
+                <a href="https://drive.google.com/file/d/1LCx3kgz6athw-d2lbkCbSTTorHsuggTX/view?usp=sharing" target="_blank" class="download-link" >Download Ayush's CV</a>
+              </button>
+
+        </div>
+        </div>
+        </div>
+        <section class="about">
+            <div class="container flex items-centre">
+            <div class="left flex-1 justify-right">
+            </div>
+            <div class="right flex-1">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! I'm Ayush Ranjan</h3>
+            <p>"Welcome to my portfolio! I'm Ayush Ranjan, a passionate front-end developer
+             dedicated to crafting immersive digital experiences. Explore my projects and journey in the world of web development.
+              Let's create something extraordinary together!"</p>
+            <div class="socials">
+            <a href="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" width="40px"></a>
+            <a href="#"><img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" width="40px"></a>
+            <a href="#"><img src="https://abs.twimg.com/responsive-web/client-web/icon-default.522d363a.png" width="40px"></a>
+            
+            </div>
+            </div>
+            </div>
+            </section>
 <body>
- 
-<table class="calculator" >
-  <tr>
-    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
- 
-    <!-- clearScreen() function clears all the values -->
-    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
-  </tr>
-  <tr>
-    <!-- display() function displays the value of clicked button -->
-    <td> <input type="button" value="1" onclick="display('1')" /> </td>
-    <td> <input type="button" value="2" onclick="display('2')" /> </td>
-    <td> <input type="button" value="3" onclick="display('3')" /> </td>
-    <td> <input type="button" value="/" onclick="display('/')" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="4" onclick="display('4')" /> </td>
-    <td> <input type="button" value="5" onclick="display('5')" /> </td>
-    <td> <input type="button" value="6" onclick="display('6')" /> </td>
-    <td> <input type="button" value="-" onclick="display('-')" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="7" onclick="display('7')" /> </td>
-    <td> <input type="button" value="8" onclick="display('8')" /> </td>
-    <td> <input type="button" value="9" onclick="display('9')" /> </td>
-    <td> <input type="button" value="+" onclick="display('+')" /> </td>
-  </tr>         
-  <tr>
-    <td> <input type="button" value="." onclick="display('.')" /> </td>
-    <td> <input type="button" value="0" onclick="display('0')" /> </td>
- 
-    <!-- calculate() function evaluates the mathematical expression -->
-    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
-    <td> <input type="button" value="*" onclick="display('*')" /> </td>
-  </tr>
-</table>
- 
-<script type="text/javascript" src="script.js"></script>
- 
 </body>
- 
 </html>
